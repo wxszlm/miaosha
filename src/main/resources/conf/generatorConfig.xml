@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--导入属性配置 -->
+    <!--
+    <properties url="D:/Project/generatorSrc/generator.properties"></properties>
+    -->
+
+    <!--指定特定数据库的jdbc驱动jar包的位置 -->
+    <classPathEntry location="D:\maven repository\mysql\mysql-connector-java\5.1.27\mysql-connector-java-5.1.27.jar"/>
+
+    <context id="default" targetRuntime="MyBatis3">
+        <!-- 配置生成pojo的序列化的插件，mybatis支持很多插件，这些插件都在 org.mybatis.generator.plugins包下  -->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+        <!-- 为生成的Java模型创建一个toString方法 -->
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>
+        <!-- optional，旨在创建class时，对注释进行控制 -->
+        <commentGenerator>
+            <property name="suppressAllComments" value="false"/>
+            <property name="suppressDate" value="false"/>
+        </commentGenerator>
+
+        <!-- jdbc的数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/miaosha?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8"
+                        userId="root" password="123456">
+        </jdbcConnection>
+
+        <!--非必需，类型处理器，在数据库类型和java类型之间的转换控制 -->
+        <!-- java类型处理器
+        用于处理DB中的类型到Java中的类型，默认使用JavaTypeResolverDefaultImpl；
+        注意一点，默认会先尝试使用Integer，Long，Short等来对应DECIMAL和 NUMERIC数据类型；
+        -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!-- java模型创建器，是必须要的元素
+        负责：1，key类（见context的defaultModelType）；2，java类；3，查询类
+        targetPackage：生成的类要放的包，真实的包受enableSubPackages属性控制；
+        targetProject：目标项目，指定一个存在的目录下，生成的内容会放到指定目录中，如果目录不存在，MBG不会自动建目录
+        -->
+        <!--<javaModelGenerator targetPackage="com.xunfengai.domain.entity"
+                            targetProject="D:\project\xwind-full\xwind-domain\src\main\java">-->
+        <javaModelGenerator targetPackage="top.yxf.miaosha.domian"
+                            targetProject="F:\workspace\demo-miaosha\src\main\java">
+            <!--  for MyBatis3/MyBatis3Simple
+            自动为每一个生成的类创建一个构造方法，构造方法包含了所有的field；而不是使用setter；
+            -->
+            <property name="constructorBased" value="false"/>
+            <!-- 在targetPackage的基础上，根据数据库的schema再生成一层package，最终生成的类放在这个package下，默认为false -->
+            <property name="enableSubPackages" value="false"/>
+            <!-- for MyBatis3 / MyBatis3Simple
+            是否创建一个不可变的类，如果为true，
+            那么MBG会创建一个没有setter方法的类，取而代之的是类似constructorBased的类
+            -->
+            <property name="immutable" value="false"/>
+            <!-- 设置一个根对象，
+            如果设置了这个根对象，那么生成的keyClass或者recordClass会继承这个类；在Table的rootClass属性中可以覆盖该选项
+            注意：如果在key class或者record class中有root class相同的属性，MBG就不会重新生成这些属性了，包括：
+                1，属性名相同，类型相同，有相同的getter/setter方法；
+            -->
+            <!--<property name="rootClass" value="com._520it.mybatis.domain.BaseDomain"/>-->
+            <!-- 设置是否在getter方法中，对String类型字段调用trim()方法 -->
+            <property name="trimStrings" value="false"/>
+        </javaModelGenerator>
+
+        <!--Mapper映射文件生成所在的目录 为每一个数据库的表生成对应的SqlMap文件 -->
+        <!-- 生成SQL map的XML文件生成器，
+        注意，在Mybatis3之后，我们可以使用mapper.xml文件+Mapper接口（或者不用mapper接口），
+            或者只使用Mapper接口+Annotation，所以，如果 javaClientGenerator配置中配置了需要生成XML的话，这个元素就必须配置
+        targetPackage/targetProject:同javaModelGenerator
+        -->
+        <!--<sqlMapGenerator targetPackage="mapper" targetProject="D:\project\xwind-full\xwind-domain\src\main\resources">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>-->
+        <sqlMapGenerator targetPackage="mapping" targetProject="F:\workspace\demo-miaosha\src\main\resources">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+
+        <!-- 客户端代码，生成易于使用的针对Model对象和XML配置文件 的代码
+                type="ANNOTATEDMAPPER",生成Java Model 和基于注解的Mapper对象
+                type="MIXEDMAPPER",生成基于注解的Java Model 和相应的Mapper对象
+                type="XMLMAPPER",生成SQLMap XML文件和独立的Mapper接口
+        -->
+        <!-- 对于mybatis来说，即生成Mapper接口，注意，如果没有配置该元素，那么默认不会生成Mapper接口
+        targetPackage/targetProject:同javaModelGenerator
+        type：选择怎么生成mapper接口（在MyBatis3/MyBatis3Simple下）：
+            1，ANNOTATEDMAPPER：会生成使用Mapper接口+Annotation的方式创建（SQL生成在annotation中），不会生成对应的XML；
+            2，MIXEDMAPPER：使用混合配置，会生成Mapper接口，并适当添加合适的Annotation，但是XML会生成在XML中；
+            3，XMLMAPPER：会生成Mapper接口，接口完全依赖XML；
+        注意，如果context是MyBatis3Simple：只支持ANNOTATEDMAPPER和XMLMAPPER
+        -->
+        <!--<javaClientGenerator targetPackage="com.xunfengai.domain.mapper"
+                             targetProject="D:\project\xwind-full\xwind-domain\src\main\java" type="MIXEDMAPPER">-->
+        <javaClientGenerator targetPackage="top.yxf.miaosha.mapper"
+                             targetProject="F:\workspace\demo-miaosha\src\main\java" type="MIXEDMAPPER">
+            <!-- 在targetPackage的基础上，根据数据库的schema再生成一层package，最终生成的类放在这个package下，默认为false -->
+            <property name="enableSubPackages" value=""/>
+            <!--
+                    定义Maper.java 源代码中的ByExample() 方法的可视性，可选的值有：
+                    public;
+                    private;
+                    protected;
+                    default
+                    注意：如果 targetRuntime="MyBatis3",此参数被忽略
+             -->
+            <property name="exampleMethodVisibility" value=""/>
+            <!--方法名计数器Important note: this property is ignored if the target runtime is MyBatis3.-->
+            <property name="methodNameCalculator" value=""/>
+            <!-- 为生成的接口添加父接口 -->
+            <property name="rootInterface" value="java.io.Serializable"/>
+        </javaClientGenerator>
+
+        <!--<table tableName="t_sys_account" domainObjectName="AccountEntity"
+            enableCountByExample="true" enableUpdateByExample="true"
+            enableDeleteByExample="true" enableSelectByExample="true"
+            selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_ACCOUNT_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+
+        <!--<table tableName="t_sys_role" domainObjectName="AccountRoleEntity"-->
+        <!--enableCountByExample="true" enableUpdateByExample="true"-->
+        <!--enableDeleteByExample="true" enableSelectByExample="true"-->
+        <!--selectByExampleQueryId="true">-->
+        <!--<property name="useActualColumnNames" value="false"/>-->
+        <!--<generatedKey column="F_ROLE_ID" sqlStatement="Mysql" identity="true"/>-->
+        <!--<columnRenamingRule searchString="^F_" replaceString=""/>-->
+        <!--</table>-->
+
+        <!--<table tableName="t_sys_module" domainObjectName="ModuleEntity"
+        enableCountByExample="true" enableUpdateByExample="true"
+        enableDeleteByExample="true" enableSelectByExample="true"
+        selectByExampleQueryId="true">
+        <property name="useActualColumnNames" value="false"/>
+        <generatedKey column="F_MODULE_ID" sqlStatement="Mysql" identity="true"/>
+        <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+
+        <table tableName="t_sys_role_module" domainObjectName="RoleModuleEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_ROLE_MODULE_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>
+
+        <!--<table tableName="t_area" domainObjectName="AreaEntity"-->
+        <!--enableCountByExample="true" enableUpdateByExample="true"-->
+        <!--enableDeleteByExample="true" enableSelectByExample="true"-->
+        <!--selectByExampleQueryId="true">-->
+        <!--<property name="useActualColumnNames" value="false"/>-->
+        <!--<generatedKey column="F_AREA_ID" sqlStatement="Mysql" identity="true"/>-->
+        <!--<columnRenamingRule searchString="^F_" replaceString=""/>-->
+        <!--</table>-->
+
+        <!--<table tableName="t_customer" domainObjectName="CustomerEntity"
+             enableCountByExample="true" enableUpdateByExample="true"
+             enableDeleteByExample="true" enableSelectByExample="true"
+             selectByExampleQueryId="true">
+             <property name="useActualColumnNames" value="false"/>
+             <generatedKey column="F_CUSTOMER_ID" sqlStatement="Mysql" identity="true"/>
+             <columnRenamingRule searchString="^F_" replaceString=""/>
+         </table>-->
+
+        <!--<table tableName="t_product" domainObjectName="ProductEntity"
+              enableCountByExample="true" enableUpdateByExample="true"
+              enableDeleteByExample="true" enableSelectByExample="true"
+              selectByExampleQueryId="true">
+           <property name="useActualColumnNames" value="false"/>
+           <generatedKey column="F_PRODUCT_ID" sqlStatement="Mysql" identity="true"/>
+           <columnRenamingRule searchString="^F_" replaceString=""/>
+       </table>-->
+        <!--<table tableName="t_device_alarm" domainObjectName="DeviceAlarmEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_ALARM_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+        <!--<table tableName="t_device" domainObjectName="DeviceEntity"
+            enableCountByExample="true" enableUpdateByExample="true"
+            enableDeleteByExample="true" enableSelectByExample="true"
+            selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_DEVICE_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+        <!--<table tableName="t_order_refund" domainObjectName="OrderReFundEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_REFUND_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+        <!--<table tableName="t_sys_log" domainObjectName="LogEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_LOG_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+        <!--
+                <table tableName="t_hw_version" domainObjectName="HWVersionEntity"
+                enableCountByExample="true" enableUpdateByExample="true"
+                enableDeleteByExample="true" enableSelectByExample="true"
+                selectByExampleQueryId="true">
+                <property name="useActualColumnNames" value="false"/>
+                <generatedKey column="F_HWVER_ID" sqlStatement="Mysql" identity="true"/>
+                <columnRenamingRule searchString="^F_" replaceString=""/>
+                </table>-->
+
+
+        <!--<table tableName="t_order" domainObjectName="OrderEntity"
+                enableCountByExample="true" enableUpdateByExample="true"
+                enableDeleteByExample="true" enableSelectByExample="true"
+                selectByExampleQueryId="true">
+             <property name="useActualColumnNames" value="false"/>
+             <generatedKey column="F_ORDER_ID" sqlStatement="Mysql" identity="true"/>
+             <columnRenamingRule searchString="^F_" replaceString=""/>
+         </table>-->
+        <!-- <table tableName="t_order_feedback" domainObjectName="OrderFeedbackEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_FEEDBACK_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>
+
+        <table tableName="t_sf_version" domainObjectName="SFVersionEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_SFVER_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>
+-->
+        <!-- <table tableName="t_shop" domainObjectName="ShopEntity"
+                enableCountByExample="true" enableUpdateByExample="true"
+                enableDeleteByExample="true" enableSelectByExample="true"
+                selectByExampleQueryId="true">
+             <property name="useActualColumnNames" value="false"/>
+             <generatedKey column="F_SHOP_ID" sqlStatement="Mysql" identity="true"/>
+             <columnRenamingRule searchString="^F_" replaceString=""/>
+         </table>-->
+
+        <!--<table tableName="t_feedback" domainObjectName="FeedBackEntity"-->
+        <!--enableCountByExample="true" enableUpdateByExample="true"-->
+        <!--enableDeleteByExample="true" enableSelectByExample="true"-->
+        <!--selectByExampleQueryId="true">-->
+        <!--<property name="useActualColumnNames" value="false"/>-->
+        <!--<generatedKey column="F_BACKFEED_ID" sqlStatement="Mysql" identity="true"/>-->
+        <!--<columnRenamingRule searchString="^F_" replaceString=""/>-->
+        <!--</table>-->
+        <!--<table tableName="t_return_visit" domainObjectName="ReturnVisitEntity"-->
+        <!--enableCountByExample="true" enableUpdateByExample="true"-->
+        <!--enableDeleteByExample="true" enableSelectByExample="true"-->
+        <!--selectByExampleQueryId="true">-->
+        <!--<property name="useActualColumnNames" value="false"/>-->
+        <!--<generatedKey column="F_VISIT_ID" sqlStatement="Mysql" identity="true"/>-->
+        <!--<columnRenamingRule searchString="^F_" replaceString=""/>-->
+        <!--</table>-->
+        <!--<table tableName="t_feedback_type" domainObjectName="FeedBackTypeEntity"-->
+        <!--enableCountByExample="true" enableUpdateByExample="true"-->
+        <!--enableDeleteByExample="true" enableSelectByExample="true"-->
+        <!--selectByExampleQueryId="true">-->
+        <!--<property name="useActualColumnNames" value="false"/>-->
+        <!--<generatedKey column="F_FEEDBACK_TYPE_ID" sqlStatement="Mysql" identity="true"/>-->
+        <!--<columnRenamingRule searchString="^F_" replaceString=""/>-->
+        <!--</table>-->
+
+        <!--<table tableName="t_user" domainObjectName="UserEntity"-->
+        <!--enableCountByExample="true" enableUpdateByExample="true"-->
+        <!--enableDeleteByExample="true" enableSelectByExample="true"-->
+        <!--selectByExampleQueryId="true">-->
+        <!--<property name="useActualColumnNames" value="false"/>-->
+        <!--<generatedKey column="F_USER_ID" sqlStatement="Mysql" identity="true"/>-->
+        <!--<columnRenamingRule searchString="^F_" replaceString=""/>-->
+        <!--</table`>-->
+
+        <!--<table tableName="t_device_ctrl_log" domainObjectName="DeviceCtrlLogEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_LOG_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+        <!--
+        <table tableName="t_sms" domainObjectName="SmsEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_SMS_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+        <!--<table tableName="t_dept" domainObjectName="DeptEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_DEPT_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+
+        <!-- <table tableName="t_flow_templet" domainObjectName="FlowTempletEntity"
+                enableCountByExample="true" enableUpdateByExample="true"
+                enableDeleteByExample="true" enableSelectByExample="true"
+                selectByExampleQueryId="true">
+             <property name="useActualColumnNames" value="false"/>
+             <generatedKey column="F_TEMPLET_ID" sqlStatement="Mysql" identity="true"/>
+             <columnRenamingRule searchString="^F_" replaceString=""/>
+         </table>-->
+
+        <!--<table tableName="t_pre_shop" domainObjectName="PreShopEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_PRE_SHOP_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+
+        <!--<table tableName="t_pre_shop_comment" domainObjectName="PreShopCommentEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+
+        <!--<table tableName="t_pre_shop_flow" domainObjectName="PreShopFlowEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_FLOW_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+
+        <!--<table tableName="t_staff" domainObjectName="StaffEntity"
+        enableCountByExample="true" enableUpdateByExample="true"
+        enableDeleteByExample="true" enableSelectByExample="true"
+        selectByExampleQueryId="true">
+        <property name="useActualColumnNames" value="false"/>
+        <generatedKey column="F_STAFF_ID" sqlStatement="Mysql" identity="true"/>
+        <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+
+        <!--<table tableName="t_area" domainObjectName="AreaEntity"
+        enableCountByExample="true" enableUpdateByExample="true"
+        enableDeleteByExample="true" enableSelectByExample="true"
+        selectByExampleQueryId="true">
+        <property name="useActualColumnNames" value="false"/>
+        <generatedKey column="F_AREA_ID" sqlStatement="Mysql" identity="true"/>
+        <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+
+        <!--<table tableName="t_ticket_package" domainObjectName="TicketPackageEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_PACKAGE_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+
+        <!--<table tableName="t_ticket_package_config" domainObjectName="TicketPackageConfigEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_PACKAGE_CFG_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+
+        <!-- <table tableName="t_ticket_generate_log" domainObjectName="TicketGenerateLogEntity"
+                enableCountByExample="true" enableUpdateByExample="true"
+                enableDeleteByExample="true" enableSelectByExample="true"
+                selectByExampleQueryId="true">
+             <property name="useActualColumnNames" value="false"/>
+             <generatedKey column="F_GENERATE_LOG_ID" sqlStatement="Mysql" identity="true"/>
+             <columnRenamingRule searchString="^F_" replaceString=""/>
+         </table>-->
+
+        <!--        <table tableName="t_ticket" domainObjectName="TicketEntity"-->
+        <!--               enableCountByExample="true" enableUpdateByExample="true"-->
+        <!--               enableDeleteByExample="true" enableSelectByExample="true"-->
+        <!--               selectByExampleQueryId="true">-->
+        <!--            <property name="useActualColumnNames" value="false"/>-->
+        <!--            <generatedKey column="f_ticket_id" sqlStatement="Mysql" identity="true"/>-->
+        <!--            <columnRenamingRule searchString="^f_" replaceString=""/>-->
+        <!--        </table>-->
+
+        <!--<table tableName="t_visit_log" domainObjectName="VisitLogEntity"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+            <property name="useActualColumnNames" value="false"/>
+            <generatedKey column="F_VISIT_ID" sqlStatement="Mysql" identity="true"/>
+            <columnRenamingRule searchString="^F_" replaceString=""/>
+        </table>-->
+    </context>
+</generatorConfiguration>
