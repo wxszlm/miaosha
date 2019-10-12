@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+# NetBeans specific #
+nbproject/private/
+build/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+target/
+.idea/
+# Class Files #
+*.class
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.iml
