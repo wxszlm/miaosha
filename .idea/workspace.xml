@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c0d36c-225e-4152-b5a5-f2cc43beb71a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/SignTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/sf/SelectionSortSF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/test/CDDRequestMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/test/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/test/TestMapTObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/yxf/test/sf/SelectionSortSF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/sf/SelectionSortSF.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/sf/SelectionSortSF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="584">
+              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -32,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/test/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="399">
               <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="e#434#435#0" expanded="true" />
@@ -46,21 +40,18 @@
                 <element signature="e#751#752#0" expanded="true" />
                 <element signature="e#791#792#0" expanded="true" />
                 <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/test/TestMapTObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+            <state relative-caret-position="613">
+              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#150#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
+            <state relative-caret-position="1349">
               <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
@@ -133,11 +124,11 @@
         <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/RsaUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/MD5.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/SignTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/sf/SelectionSortSF.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/test/Student.java" />
         <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/test/CDDRequestMessage.java" />
         <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/test/TestMapTObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/sf/SelectionSortSF.java" />
       </list>
     </option>
   </component>
@@ -181,8 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,6 +220,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="sf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -244,7 +244,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571876282633" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571912097801" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/base-admin-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -278,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestMapTObject">
+  <component name="RunManager" selected="Application.SelectionSortSF">
     <configuration name="AesUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.yxf.miaosha.utils.AesUtil" />
       <module name="demo-miaosha" />
@@ -346,8 +346,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestMapTObject" />
         <item itemvalue="Application.SelectionSortSF" />
+        <item itemvalue="Application.TestMapTObject" />
         <item itemvalue="Application.RsaUtil" />
         <item itemvalue="Application.AesUtil" />
         <item itemvalue="Application.SF" />
@@ -378,6 +378,7 @@
       <workItem from="1571356995696" duration="223000" />
       <workItem from="1571652777321" duration="469000" />
       <workItem from="1571808425663" duration="3807000" />
+      <workItem from="1571876245643" duration="3203000" />
     </task>
     <task id="LOCAL-00001" summary="整合redis">
       <created>1570867012572</created>
@@ -393,17 +394,30 @@
       <option name="project" value="LOCAL" />
       <updated>1571357185597</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试map转javabean">
+      <created>1571876311724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571876311724</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试map转javabean">
+      <created>1571876323592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571876323592</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47094000" />
+    <option name="totallyTimeSpent" value="50297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27558637" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27878466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -413,7 +427,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.40128756" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.17381974" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,7 +435,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.5729614" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.17381974" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32832617" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -444,7 +458,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="整合redis" />
     <MESSAGE value="url加密" />
-    <option name="LAST_COMMIT_MESSAGE" value="url加密" />
+    <MESSAGE value="测试map转javabean" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试map转javabean" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://F:/maven/repository/org/springframework/spring-webmvc/5.2.0.RELEASE/spring-webmvc-5.2.0.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java">
@@ -798,23 +813,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/sf/SelectionSortSF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/test/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="399">
           <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="e#434#435#0" expanded="true" />
@@ -828,8 +829,6 @@
             <element signature="e#751#752#0" expanded="true" />
             <element signature="e#791#792#0" expanded="true" />
             <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -841,14 +840,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/test/TestMapTObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        <state relative-caret-position="613">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#150#166#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/sf/SelectionSortSF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
         </state>
       </provider>
     </entry>

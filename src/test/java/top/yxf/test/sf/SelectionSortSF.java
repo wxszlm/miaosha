@@ -15,20 +15,26 @@ public class SelectionSortSF {
         // 默认数组第一个是最大的数值
         int minPos = 0;
 
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] < arr[minPos])
-                minPos = i;
+        for (int j = 0; j < arr.length; j++) {
 
+            for (int i = j; i < arr.length -1; i++) {
+//                if (arr[i] < arr[minPos])
+//                    minPos = i;
+                minPos = arr[i] < arr[minPos] ? i : minPos;
+            }
+            System.out.println("minPos = " + minPos);
+            swap(arr,minPos,j);
         }
-        System.out.println("minPos = " + minPos);
-        int temp = arr[minPos];
-        arr[minPos] = arr[0];
-        arr[0] = temp;
-
         for (int j =0; j < arr.length; j++) {
             System.out.print(arr[j] + " ");
         }
 
+    }
+
+    static void swap(int[] arr,int i,int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 
 }
