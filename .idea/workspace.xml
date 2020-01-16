@@ -2,14 +2,62 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/test/java/top/yxf/test/sf/StringLength.java" line="22" />
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/ForEachTest.java" line="19" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2c0d36c-225e-4152-b5a5-f2cc43beb71a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/Desk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/controller/TestSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/TestJsapi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/entity/ResultEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/entity/TransfersDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/CustomSystemUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/HttpRequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/JSAPIUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/OrderNOGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/RandomStringGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/socket/MyWebSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/socket/SocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/socket/WebsocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/udp/MyClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/udp/MyClientsTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/udp/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/HtmlToImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/socket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/b/LongEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/b/LongEventFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/b/LongEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/b/LongEventMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/b/LongEventProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/ErArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/ForEachTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/YangHuiSanJiao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/YangHuiSanJiao2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/pattern/MyObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/rabbitmq/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/rabbitmq/simple/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/rabbitmq/simple/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/InteruuptedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/ThreadPool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/time/LeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/ConsumerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/ConsumerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/ProviderThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/ProviderThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-miaosha.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-miaosha.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/MessageReceiveOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/MessageReceiveOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/NewThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/NewThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/yxf/miaosha/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/yxf/miaosha/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-miaosha-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-miaosha-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,64 +88,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/NewThreadPool.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+            <state relative-caret-position="271">
+              <caret line="240" column="35" selection-start-line="240" selection-start-column="35" selection-end-line="240" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/MaxCommonPrefix.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/pattern/MyObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/YangHuiSanJiao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/YangHuiSanJiao2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/time/LeapYear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/TestJsapi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/thread/ProviderThread.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/JSAPIUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/thread/ConsumerThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/thread/Desk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/thread/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/EchoClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+            <state relative-caret-position="1448">
+              <caret line="105" column="59" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,67 +157,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/Message.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/HttpRequestHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+            <state relative-caret-position="189">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/Header.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/ErArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1321#1322#0" expanded="true" />
-                <element signature="e#1350#1351#0" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
-                <element signature="e#1428#1429#0" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1534#1535#0" expanded="true" />
-                <element signature="e#1572#1573#0" expanded="true" />
-                <element signature="e#1604#1605#0" expanded="true" />
-                <element signature="e#1634#1635#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#1716#1717#0" expanded="true" />
-                <element signature="e#1748#1749#0" expanded="true" />
-                <element signature="e#1778#1779#0" expanded="true" />
-                <element signature="e#1822#1823#0" expanded="true" />
-                <element signature="e#1860#1861#0" expanded="true" />
-                <element signature="e#1896#1897#0" expanded="true" />
-                <element signature="e#1928#1929#0" expanded="true" />
-                <element signature="e#1978#1979#0" expanded="true" />
-                <element signature="e#2020#2021#0" expanded="true" />
-                <element signature="e#2050#2051#0" expanded="true" />
-                <element signature="e#2079#2080#0" expanded="true" />
-                <element signature="e#2120#2121#0" expanded="true" />
-                <element signature="e#2156#2157#0" expanded="true" />
-                <element signature="e#2187#2188#0" expanded="true" />
-                <element signature="e#2217#2218#0" expanded="true" />
-                <element signature="e#2260#2261#0" expanded="true" />
-                <element signature="e#2298#2299#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/MessageEncoder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/controller/TestSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="221">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,6 +195,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -188,6 +204,13 @@
     <findStrings>
       <find>包长度问题</find>
       <find>标志错误</find>
+      <find>partner_trade_no</find>
+      <find>凭借</find>
+      <find>RedisMessageListenerContainer</find>
+      <find>commons-cli</find>
+      <find>org.apache.</find>
+      <find>commons.cli</find>
+      <find>Observer</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -200,57 +223,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/AppMvcConfigurer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/config/AppMvcConfigurer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/config/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/logging-config" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/config/DruidDBConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/CodeExceptionMsg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/domian/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/domian/MessageReceiveOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/domian/MessageReceiveTwo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/jsapi/util/JSAPIUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/RedisMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/MessageReceiveTwo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/jsapi/util/HttpRequestHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/MessageReceiveOne.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/SF.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/TestThread.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/MD5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/OrderNOGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/payReqData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/CustomSystemUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/RandomStringGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/b/LongEventFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/b/LongEvent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/b/LongEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/b/LongEventProducer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/b/LongEventMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/webscoket/WebScoketConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/webscoket/HandShakeInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/socket.html" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/webscoket/GoodsWebSocketHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/HtmlToImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/socket/MyWebSocket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/socket/WebsocketConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/socket/SocketServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/socket/TestSocket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/controller/TestSocket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/udp/MyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/udp/MyClients.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/udp/MyClientsTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/entity/TransfersDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/entity/TransfersDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/AesUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/RsaUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/MD5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/SignTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/test/Student.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/test/CDDRequestMessage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/test/TestMapTObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/sf/SelectionSortSF.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/sf/StringLength.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/AESUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/AES.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/netty/Header.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/netty/Client.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/netty/Message.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/netty/MessageDecoder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/netty/MessageEncoder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/netty/EchoClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/netty/TestNetty.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/netty/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/HttpRequestHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/NewThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/MaxCommonPrefix.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/Desk.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/Demo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/ConsumerThread.java" />
-        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/thread/ProviderThread.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/ThreadPool" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/InteruuptedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/ForEachTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/rabbitmq/ConnectionUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/rabbitmq/simple/Sender.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/rabbitmq/simple/Receiver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/YangHuiSanJiao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/ErArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/TestJsapi.java" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/time/LeapYear.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/YangHuiSanJiao2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/JSAPIUtil.java" />
       </list>
     </option>
   </component>
@@ -267,6 +290,8 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="createModuleGroups" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
@@ -278,17 +303,29 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="demo-miaosha" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-miaosha" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-miaosha" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="345" />
-    <option name="y" value="47" />
-    <option name="width" value="1033" />
+    <option name="x" value="646" />
+    <option name="y" value="16" />
+    <option name="width" value="1229" />
     <option name="height" value="885" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -316,6 +353,39 @@
               <item name="demo-miaosha" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-miaosha" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="jsapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,61 +410,52 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="sf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-miaosha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-miaosha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-miaosha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-miaosha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575886297213" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/base-admin-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579137511345" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/top/yxf/test/jsapi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/httpcore-4.4.4.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21268058" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\workspace\demo-miaosha\src\main\resources\static\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.yxf.miaosha.udp" />
+      <recent name="top.yxf.miaosha.jsapi.util" />
       <recent name="top.yxf.test.test" />
       <recent name="top.yxf.miaosha.utils" />
       <recent name="top.yxf.miaosha.domian" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\demo-miaosha\lib" />
+      <recent name="F:\workspace\demo-miaosha\src\main\java\top\yxf\miaosha" />
+      <recent name="F:\workspace\demo-miaosha\src\test\java\top\yxf\test\jsapi\util" />
+      <recent name="F:\workspace\demo-miaosha\src\test\java\top\yxf\test\jsapi\entity" />
       <recent name="F:\workspace\demo-miaosha\src\main\java\top\yxf\miaosha\utils" />
-      <recent name="F:\workspace\demo-miaosha\src\main\resources\conf" />
-      <recent name="F:\workspace\demo-miaosha\src\main\java\top\yxf\miaosha\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,35 +470,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.yxf.test.netty.Client" />
-      <module name="demo-miaosha" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.yxf.test.netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.yxf.test.thread.Demo" />
-      <module name="demo-miaosha" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.yxf.test.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.yxf.test.leetcode.MaxCommonPrefix" />
+  <component name="RunManager" selected="Application.YangHuiSanJiao2">
+    <configuration name="ErArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.yxf.test.leetcode.ErArray" />
       <module name="demo-miaosha" />
       <extension name="coverage">
         <pattern>
@@ -449,12 +484,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.yxf.test.threadpool.NewThreadPool" />
+    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.yxf.test.time.LeapYear" />
       <module name="demo-miaosha" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.yxf.test.threadpool.*" />
+          <option name="PATTERN" value="top.yxf.test.time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -462,26 +497,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNetty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.yxf.test.netty.TestNetty" />
+    <configuration name="Receiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.yxf.test.rabbitmq.simple.Receiver" />
       <module name="demo-miaosha" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.yxf.test.netty.*" />
+          <option name="PATTERN" value="top.yxf.test.rabbitmq.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YangHuiSanJiao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.yxf.test.leetcode.YangHuiSanJiao" />
+      <module name="demo-miaosha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.yxf.test.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YangHuiSanJiao2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.yxf.test.leetcode.YangHuiSanJiao2" />
+      <module name="demo-miaosha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.yxf.test.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-miaosha" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.yxf.miaosha.App" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.MaxCommonPrefix" />
-        <item itemvalue="Application.NewThreadPool" />
-        <item itemvalue="Application.TestNetty" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.YangHuiSanJiao2" />
+        <item itemvalue="Application.LeapYear" />
+        <item itemvalue="Application.ErArray" />
+        <item itemvalue="Application.YangHuiSanJiao" />
+        <item itemvalue="Application.Receiver" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +589,24 @@
       <workItem from="1573782048824" duration="20000" />
       <workItem from="1574934724677" duration="858000" />
       <workItem from="1574987547989" duration="2606000" />
-      <workItem from="1575852988820" duration="8516000" />
+      <workItem from="1575852988820" duration="8588000" />
+      <workItem from="1575938113935" duration="7911000" />
+      <workItem from="1576024858291" duration="4795000" />
+      <workItem from="1576114319636" duration="2044000" />
+      <workItem from="1576117451704" duration="9940000" />
+      <workItem from="1576549912971" duration="601000" />
+      <workItem from="1576629189005" duration="1463000" />
+      <workItem from="1576715810373" duration="4031000" />
+      <workItem from="1576729115610" duration="1965000" />
+      <workItem from="1577233682302" duration="7565000" />
+      <workItem from="1578280601691" duration="3423000" />
+      <workItem from="1578372387797" duration="2398000" />
+      <workItem from="1578442907976" duration="649000" />
+      <workItem from="1578624410173" duration="3562000" />
+      <workItem from="1578893853185" duration="2189000" />
+      <workItem from="1578961670238" duration="2979000" />
+      <workItem from="1579048255186" duration="597000" />
+      <workItem from="1579136362969" duration="1087000" />
     </task>
     <task id="LOCAL-00001" summary="整合redis">
       <created>1570867012572</created>
@@ -565,17 +650,24 @@
       <option name="project" value="LOCAL" />
       <updated>1575874530580</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="线程并发">
+      <created>1575886346619</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575886346619</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84194000" />
+    <option name="totallyTimeSpent" value="141465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -585,7 +677,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49626866" visible="true" weight="0.36266094" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49733475" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -605,7 +697,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49821427" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.1337953" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -626,438 +718,623 @@
     <MESSAGE value="测试map转javabean" />
     <MESSAGE value="选择排序算法" />
     <MESSAGE value="获取公共前缀" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取公共前缀" />
+    <MESSAGE value="线程并发" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程并发" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/CodeExceptionMsg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/maven/repository/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE.jar!/org/springframework/data/redis/serializer/GenericJackson2JsonRedisSerializer.class" />
-    <entry file="jar://F:/maven/repository/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE.jar!/org/springframework/data/redis/serializer/RedisSerializer.class" />
-    <entry file="jar://F:/maven/repository/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/domian/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/maven/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0-sources.jar!/com/fasterxml/jackson/annotation/PropertyAccessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/maven/repository/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class" />
-    <entry file="jar://F:/maven/repository/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE-sources.jar!/org/springframework/data/redis/serializer/StringRedisSerializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="94" column="53" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/MessageReceiveTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/MessageReceiveOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/RedisMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="437">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/maven/repository/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE-sources.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.java" />
-    <entry file="jar://F:/maven/repository/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializer.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/security/Key.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/comon/MessageReceiveOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="150" column="18" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/SF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        <state relative-caret-position="152">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/thread/TestThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/AesUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2242">
-          <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/RsaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2831">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/thread/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/maven/repository/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-679" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/SignTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/sf/SelectionSortSF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/sf/StringLength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/AESUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/test/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/test/TestMapTObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/AES.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/test/CDDRequestMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/TestNetty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/EchoServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/socket.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/MessageDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="63" column="88" selection-start-line="63" selection-start-column="88" selection-end-line="63" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/EchoClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/webscoket/GoodsWebSocketHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/webscoket/HandShakeInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/webscoket/WebScoketConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/socket/MyWebSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+        <state relative-caret-position="1805">
+          <caret line="98" column="54" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/Header.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/socket/WebsocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding>
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1350#1351#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1534#1535#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
-            <element signature="e#1928#1929#0" expanded="true" />
-            <element signature="e#1978#1979#0" expanded="true" />
-            <element signature="e#2020#2021#0" expanded="true" />
-            <element signature="e#2050#2051#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-            <element signature="e#2156#2157#0" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2217#2218#0" expanded="true" />
-            <element signature="e#2260#2261#0" expanded="true" />
-            <element signature="e#2298#2299#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/MessageEncoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/socket/SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="380">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/udp/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/udp/MyClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.security.UnrecoverableKeyException">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.security.UnrecoverableKeyException</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.Throwable</node>
+            <node x="" y="">java.security.GeneralSecurityException</node>
+            <node x="" y="">java.security.UnrecoverableKeyException</node>
+            <node x="" y="">java.lang.Exception</node>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">java.security.UnrecoverableEntryException</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="109.0" y="215.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/security/KeyManagementException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/top.yxf.miaosha:demo-miaosha:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>top.yxf.miaosha:demo-miaosha:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">top.yxf.miaosha:demo-miaosha:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot:jar:2.2.0.BUILD-20191016.163506-711</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot-autoconfigure:jar:2.2.0.BUILD-20191016.163400-713</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot-starter-logging:jar:2.2.0.BUILD-20191016.163447-713</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot-starter-logging:jar:2.2.0.BUILD-20191016.163447-713/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot-starter-logging:jar:2.2.0.BUILD-20191016.163447-713/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot-starter-logging:jar:2.2.0.BUILD-20191016.163447-713/ch.qos.logback:logback-classic:jar:1.2.3/org.slf4j:slf4j-api:jar:1.7.28</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot-starter-logging:jar:2.2.0.BUILD-20191016.163447-713/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot-starter-logging:jar:2.2.0.BUILD-20191016.163447-713/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot-starter-logging:jar:2.2.0.BUILD-20191016.163447-713/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1/org.apache.logging.log4j:log4j-api:jar:2.12.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot-starter-logging:jar:2.2.0.BUILD-20191016.163447-713/org.slf4j:jul-to-slf4j:jar:1.7.28</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.springframework.boot:spring-boot-starter-logging:jar:2.2.0.BUILD-20191016.163447-713/org.slf4j:jul-to-slf4j:jar:1.7.28/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/jakarta.annotation:jakarta.annotation-api:jar:1.3.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter:jar:2.2.0.BUILD-20191016.163501-711/org.yaml:snakeyaml:jar:1.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-json:jar:2.2.0.BUILD-20191016.163444-713</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-json:jar:2.2.0.BUILD-20191016.163444-713/com.fasterxml.jackson.core:jackson-databind:jar:2.10.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-json:jar:2.2.0.BUILD-20191016.163444-713/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-json:jar:2.2.0.BUILD-20191016.163444-713/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.0/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-json:jar:2.2.0.BUILD-20191016.163444-713/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-json:jar:2.2.0.BUILD-20191016.163444-713/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.0/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-json:jar:2.2.0.BUILD-20191016.163444-713/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.10.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-json:jar:2.2.0.BUILD-20191016.163444-713/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.10.0/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.0.BUILD-20191016.163456-712</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.0.BUILD-20191016.163456-712/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.27</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.0.BUILD-20191016.163456-712/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.27</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.0.BUILD-20191016.163456-712/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.27</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-validation:jar:2.2.0.BUILD-20191016.163457-711</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-validation:jar:2.2.0.BUILD-20191016.163457-711/jakarta.validation:jakarta.validation-api:jar:2.0.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-validation:jar:2.2.0.BUILD-20191016.163457-711/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework.boot:spring-boot-starter-validation:jar:2.2.0.BUILD-20191016.163457-711/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final/org.jboss.logging:jboss-logging:jar:3.4.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework:spring-web:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework:spring-webmvc:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework:spring-webmvc:jar:5.2.0.RELEASE/org.springframework:spring-aop:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.0.BUILD-20191016.163459-711/org.springframework:spring-webmvc:jar:5.2.0.RELEASE/org.springframework:spring-expression:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.2.0.BUILD-20191016.163455-712</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.2.0.BUILD-20191016.163455-712/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.2.0.BUILD-20191016.163455-712/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.2.0.BUILD-20191016.163455-712/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE/org.attoparser:attoparser:jar:2.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.2.0.BUILD-20191016.163455-712/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE/org.unbescape:unbescape:jar:1.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.2.0.BUILD-20191016.163455-712/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.2.0.BUILD-20191016.163455-712/org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.2.0.BUILD-20191016.163455-712/org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.2.0.BUILD-20191016.163455-712/org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.4.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-annotations:jar:1.5.20</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2/net.bytebuddy:byte-buddy:jar:1.10.1</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-schema:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/com.fasterxml:classmate:jar:1.5.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.mapstruct:mapstruct:jar:1.2.0.Final</node>
+            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.9.2</node>
+            <node x="" y="">com.lmax:disruptor:jar:3.2.1</node>
+            <node x="" y="">javax.websocket:javax.websocket-api:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-websocket:jar:4.0.1.RELEASE</node>
+            <node x="" y="">org.springframework:spring-websocket:jar:4.0.1.RELEASE/org.springframework:spring-context:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-websocket:jar:4.0.1.RELEASE/org.springframework:spring-core:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-websocket:jar:4.0.1.RELEASE/org.springframework:spring-core:jar:5.2.0.RELEASE/org.springframework:spring-jcl:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-messaging:jar:4.0.1.RELEASE</node>
+            <node x="" y="">org.springframework:spring-messaging:jar:4.0.1.RELEASE/org.springframework:spring-beans:jar:5.2.0.RELEASE</node>
+            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.7</node>
+            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.7/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.7/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">io.netty:netty-all:jar:4.1.30.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-websocket:jar:2.2.0.BUILD-20191016.163500-711</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-websocket:jar:2.2.0.BUILD-20191016.163500-711/org.springframework:spring-messaging:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-websocket:jar:2.2.0.BUILD-20191016.163500-711/org.springframework:spring-websocket:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.3.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.3.5.RELEASE/org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.3.5.RELEASE/org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.3.5.RELEASE/org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.2.0.RELEASE/org.springframework.data:spring-data-commons:jar:2.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.3.5.RELEASE/org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.2.0.RELEASE/org.springframework.data:spring-data-commons:jar:2.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.3.5.RELEASE/org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.3.5.RELEASE/org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-tx:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.3.5.RELEASE/org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-oxm:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.3.5.RELEASE/org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-context-support:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.3.5.RELEASE/org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.8</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.8/com.fasterxml.jackson.core:jackson-annotations:jar:2.10.0</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.8/com.fasterxml.jackson.core:jackson-core:jar:2.10.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.0.BUILD-20191016.163441-713</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.0.BUILD-20191016.163441-713/com.zaxxer:HikariCP:jar:3.4.1</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.0.BUILD-20191016.163441-713/com.zaxxer:HikariCP:jar:3.4.1/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.0.BUILD-20191016.163441-713/org.springframework:spring-jdbc:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.2</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.mybatis:mybatis:jar:3.4.6</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2/org.mybatis:mybatis-spring:jar:1.3.2</node>
+            <node x="" y="">com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.9</node>
+            <node x="" y="">com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.9/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8</node>
+            <node x="" y="">com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.9/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.10.0</node>
+            <node x="" y="">com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.9/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.10.0/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8</node>
+            <node x="" y="">com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.9/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.10.0/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2</node>
+            <node x="" y="">com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.9/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.10.0/jakarta.activation:jakarta.activation-api:jar:1.2.1</node>
+            <node x="" y="">com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.9/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.9/com.fasterxml.woodstox:woodstox-core:jar:5.1.0</node>
+            <node x="" y="">com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.9/com.fasterxml.woodstox:woodstox-core:jar:5.1.0/org.codehaus.woodstox:stax2-api:jar:4.1</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.6</node>
+            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3</node>
+            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.3/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">redis.clients:jedis:jar:3.1.0</node>
+            <node x="" y="">redis.clients:jedis:jar:3.1.0/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">redis.clients:jedis:jar:3.1.0/org.apache.commons:commons-pool2:jar:2.7.0</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.18</node>
+            <node x="" y="">org.apache.directory.studio:org.apache.commons.codec:jar:1.8</node>
+            <node x="" y="">org.apache.directory.studio:org.apache.commons.codec:jar:1.8/commons-codec:commons-codec:jar:1.13</node>
+            <node x="" y="">com.alibaba:druid:jar:1.1.10</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.2.31</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="324.0" y="1205.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JIGSAW/commons.cli">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JIGSAW</ID>
+          <OriginalElement>commons.cli</OriginalElement>
+          <nodes>
+            <node x="" y="">commons.cli</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="52.0" y="28.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-cli-1.2.1.jar!/org/apache/commons/cli/oss/KeyStores.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/AesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/entity/TransfersDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/CustomSystemUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2382">
+          <caret line="260" column="12" selection-start-line="260" selection-start-column="12" selection-end-line="260" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repository/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0-sources.jar!/com/ctc/wstx/evt/MergedNsContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="100" column="46" lean-forward="true" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/udp/MyClientsTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/NewThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/ThreadPool">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/threadpool/InteruuptedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/MaxCommonPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/netty/Message.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        <state relative-caret-position="731">
+          <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/ForEachTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/thread/Desk.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/rabbitmq/ConnectionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state>
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/thread/ConsumerThread.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/rabbitmq/simple/Sender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="272">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/thread/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/rabbitmq/simple/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="85">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/thread/ProviderThread.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/ErArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/controller/TestSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/time/chrono/IsoChronology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="383" column="5" lean-forward="true" selection-start-line="383" selection-start-column="5" selection-end-line="383" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="829" column="43" lean-forward="true" selection-start-line="829" selection-start-column="43" selection-end-line="829" selection-end-column="43" />
+          <folding>
+            <element signature="e#34633#34634#0" expanded="true" />
+            <element signature="e#34695#34696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/utils/HtmlToImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/HttpRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/time/LeapYear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="240" column="35" selection-start-line="240" selection-start-column="35" selection-end-line="240" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/pattern/MyObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/YangHuiSanJiao2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/top/yxf/test/leetcode/YangHuiSanJiao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/TestJsapi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/yxf/miaosha/jsapi/util/JSAPIUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1448">
+          <caret line="105" column="59" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21268058" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21268058" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21268058" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21268058" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>demo-miaosha</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21268058" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1065,6 +1342,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-cli-1.2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21268058" />
               </list>
             </option>
           </splitter-proportions>

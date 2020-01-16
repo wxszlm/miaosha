@@ -14,10 +14,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import top.yxf.miaosha.comon.Result;
 import top.yxf.miaosha.domian.User;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 /**
  *@author wuxiangsheng
  *@description 测试专用
@@ -45,6 +41,24 @@ public class HelloController {
         model.addAttribute("uname","world");
 
         return Result.success(JSONObject.toJSONString(model));
+    }
+
+    @RequestMapping(value = "socket",method = RequestMethod.GET)
+    public Result<String> socket(Model model){
+
+//        model.addAttribute("uid","hello");
+//        model.addAttribute("uname","world");
+
+        return Result.success(JSONObject.toJSONString(model));
+    }
+
+    @RequestMapping(value = "hello1",method = RequestMethod.GET)
+    public String hello1(Model model){
+
+//        model.addAttribute("uid","hello");
+//        model.addAttribute("uname","world");
+
+        return "hello";
     }
 
     @ApiOperation(value = "test redis",notes = "test redis set value success" )

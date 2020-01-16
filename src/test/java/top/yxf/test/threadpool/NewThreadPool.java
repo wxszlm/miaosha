@@ -24,7 +24,9 @@ public class NewThreadPool {
         ThreadPoolExecutor threadPool =
                 new ThreadPoolExecutor(5, 10, 30, TimeUnit.SECONDS, workQueue, abortPolicyHandler);
         long start = System.currentTimeMillis();
+
         for (int i = 0; i < 40; i++) {
+
             threadPool.execute(new MyTask());
             System.out.println("核心线程数" + threadPool.getCorePoolSize());
             System.out.println("最大线程数" + threadPool.getMaximumPoolSize());

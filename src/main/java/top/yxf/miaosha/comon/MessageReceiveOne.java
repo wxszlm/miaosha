@@ -11,7 +11,7 @@ import top.yxf.miaosha.domian.User;
 public class MessageReceiveOne {
 
     public void getMessage(String object){
-//序列化对象（特别注意：发布的时候需要设置序列化；订阅方也需要设置序列化）
+        // 序列化对象（特别注意：发布的时候需要设置序列化；订阅方也需要设置序列化）
         Jackson2JsonRedisSerializer seria = new Jackson2JsonRedisSerializer(User.class);
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
