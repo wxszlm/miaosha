@@ -24,7 +24,7 @@ public class Sender {
          *  其他属性
          *
          */
-        channel.queueDeclare(QUEUE_NAME, false, false, false, null);
+        channel.queueDeclare(QUEUE_NAME, true, false, false, null);
         //消息内容
         /**
          * 交换机
@@ -32,7 +32,7 @@ public class Sender {
          * 其他属性  路由
          * 消息body
          */
-        String message = "错的不是我，是这个世界~";
+        String message = "错的不是我，是这个世界~ 年轻";
         channel.basicPublish("", QUEUE_NAME,null,message.getBytes());
         System.out.println("[x]Sent '"+message + "'");
 
