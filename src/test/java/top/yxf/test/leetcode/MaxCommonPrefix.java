@@ -14,14 +14,15 @@ public class MaxCommonPrefix {
             return "";
         }
         // 默认拿着第一个作为比较
-        String str = strs[0];
+        String str = "";
+        if (strs.length > 0) {
+            str = strs[0];
 
-        for (int i = 1; i < strs.length; i++) {
-            System.out.println(strs[i].indexOf(str));
-            while (strs[i].indexOf(str) != 0) {
-                System.out.println(str);
-                str = str.substring(0, str.length() - 1);
+            for (int i = 1; i < strs.length; i++) {
+                while (strs[i].indexOf(str) != 0) {
+                    str = str.substring(0, str.length() - 1);
 
+                }
             }
         }
 

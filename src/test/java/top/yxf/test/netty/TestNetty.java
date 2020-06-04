@@ -9,9 +9,11 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.string.StringEncoder;
+import io.netty.util.concurrent.Future;
 
 
 public class TestNetty {
+
 
     public static void main(String[] args) throws Exception{
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
@@ -43,14 +45,12 @@ public class TestNetty {
             // Start the server.
             ChannelFuture f = b.bind(8888).sync();
             System.out.println("EchoServer.main ServerBootstrap配置启动完成");
-
             // Wait until the server socket is closed.
             f.channel().closeFuture().sync();
+
             System.out.println("EchoServer.main end");
         } finally {
-            // Shut down all event loops to terminate all threads.
-            bossGroup.shutdownGracefully();
-            workerGroup.shutdownGracefully();
+
         }
     }
 
